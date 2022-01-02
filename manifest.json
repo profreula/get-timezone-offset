@@ -1,0 +1,24 @@
+{
+  "kind": "column",
+  "name": "Count occurrences in array",
+  "description": "Count occurrences of a user-specified key in an array",
+  "author": "Thinh Dinh <thinh@lowcode.agency>",
+  "params": [
+     {
+      "name": "array",
+      "displayName": "Array",
+      "type": {
+        "kind": "array",
+        "items": "string"
+      }
+     },
+    {
+      "name": "key",
+      "displayName": "Key to search",
+      "type": "string"      
+    }
+  ],
+  "result": {
+      "type": "primitive"
+      }
+}
