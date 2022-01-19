@@ -1,24 +1,16 @@
 {
   "kind": "column",
-  "name": "Count occurrences in array",
-  "description": "Count occurrences of a user-specified key in an array",
+  "name": "Return integer from string",
+  "description": "",
   "author": "Thinh Dinh <thinh@lowcode.agency>",
   "params": [
      {
-      "name": "array",
-      "displayName": "Array",
-      "type": {
-        "kind": "array",
-        "items": "string"
-      }
-     },
-    {
-      "name": "key",
-      "displayName": "Key to search",
-      "type": "string"      
-    }
+      "name": "txt",
+      "displayName": "Input",
+      "type": "primitive"
+     }
   ],
   "result": {
-      "type": "primitive"
+      "type": "number"
       }
 }
