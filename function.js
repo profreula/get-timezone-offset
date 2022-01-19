@@ -1,15 +1,6 @@
-window.function = function (arrayIP, keyIP) {
+window.function = function (txt) {
 
-  if (arrayIP.value === undefined) return undefined;
+  txt = txt.value ?? "";
 
-  keyIP = keyIP.value ?? "";
-  let tab = arrayIP.value;
-  
-  let countOP = 0;
-  for(var i = 0; i < tab.length; ++i){
-    if(tab[i] === keyIP)
-        countOP++;
-        }
-
-  return countOP;
+  return parseInt(txt,10);
 }
