@@ -1,12 +1,12 @@
 {
   "kind": "column",
-  "name": "Return integer from string",
+  "name": "Return timezone offset of device",
   "description": "",
   "author": "Thinh Dinh <thinh@lowcode.agency>",
   "params": [
      {
-      "name": "txt",
-      "displayName": "Input",
+      "name": "now",
+      "displayName": "Current date/time",
       "type": "primitive"
      }
   ],
