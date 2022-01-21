@@ -1,6 +1,7 @@
-window.function = function (txt) {
+window.function = function (now) {
 
-  txt = txt.value ?? "";
-
-  return parseInt(txt,10);
+  now = now.value ?? "";
+  
+  const date1 = new Date(now);
+  return date1.getTimezoneOffset()/-60;
 }
